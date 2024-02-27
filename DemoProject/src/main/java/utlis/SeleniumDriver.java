@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
+
 public class SeleniumDriver {
 	private static SeleniumDriver seleniumDriver;
 	 
@@ -25,6 +26,7 @@ public class SeleniumDriver {
 
        
     	WebDriverManager.chromedriver().setup();
+    //	System.setProperty("webdriver.chrome.driver","C:\\Users\\DELL\\git\\DemoProject\\DemoProject\\src\\test\\resources\\config\\chromedriver.exe")
     	driver = new ChromeDriver();
         driver.manage().window().maximize();
 

@@ -27,3 +27,4 @@ Feature: Login
             | abc      | def      |
             | 123      | 456      |
             | %^&      | &*^&     |
+            |standard_user| secret_sauce|
